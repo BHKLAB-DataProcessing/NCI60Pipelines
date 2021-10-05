@@ -1,0 +1,26 @@
+{
+    "pipeline": {
+      "name": "downloadNCI60Data"
+    },
+    "transform": {
+      "image": "bhklab/pharmacogx:v3",
+      "cmd": [
+        "Rscript", 
+        "/pfs/downloadNCI60Data/downloadNCI60Data.R"]
+      },
+    
+    "resource_requests": {
+      "memory": "100M"
+    },
+    "input": {
+      "cross": [
+        {
+          "git": {
+            "url": "https://github.com/BHKLAB-Pachyderm/downloadNCI60Data.git",
+            "name": "",
+            "branch": "main"
+          }
+        }
+      ]
+    }
+}
