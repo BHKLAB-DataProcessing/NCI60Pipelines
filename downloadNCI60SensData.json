@@ -6,7 +6,7 @@
       "image": "bhklab/pharmacogx2.0:v3",
       "cmd": [
         "Rscript", 
-        "/pfs/downloadNCI60Data/download.R"]
+        "/pfs/downloadNCI60SensData/download.R"]
       },   
     "resource_requests": {
       "memory": "100M"
@@ -15,7 +15,7 @@
       "cross": [
         {
           "git": {
-            "url": "https://github.com/BHKLAB-Pachyderm/downloadNCI60Data.git",
+            "url": "https://github.com/BHKLAB-Pachyderm/downloadNCI60SensData.git",
             "name": "",
             "branch": "main"
           }
