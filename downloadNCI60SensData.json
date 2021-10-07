@@ -1,6 +1,6 @@
 {
     "pipeline": {
-      "name": "downloadNCI60Data"
+      "name": "downloadNCI60SensData"
     },
     "transform": {
       "image": "bhklab/pharmacogx2.0:v3",
