@@ -22,22 +22,10 @@
           }
         },
         {
-            "pfs": {
-              "repo": "downAnnotations",
-              "glob": "/"
-            }
-        },
-        {
-            "pfs": {
-              "repo": "downloadNCI60SensData",
-              "glob": "/"
-            }
-        },
-        {
-            "pfs": {
-              "repo": "downloadNCI60CellData",
-              "glob": "/"
-            }
+          "pfs": {
+            "repo": "downAnnotations",
+            "glob": "/"
+          }
         }
       ]
     }
