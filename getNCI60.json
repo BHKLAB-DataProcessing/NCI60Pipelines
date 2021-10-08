@@ -35,12 +35,6 @@
         },
         {
             "pfs": {
-              "repo": "downloadNCI60MolData",
-              "glob": "/"
-            }
-        },
-        {
-            "pfs": {
               "repo": "downloadNCI60CellData",
               "glob": "/"
             }
